@@ -1,0 +1,110 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210130/pngtree-wavy-irregular-gradient-abstract-background-image_549218.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.nav-item {
+  float: left;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 100px;
+}
+
+.nav-item:hover {
+  background-color:rebeccapurple;
+}
+
+.nav-item.active {
+  background-color: crimson;
+}
+
+p {
+  color:antiquewhite;
+  font-size:28px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.row {
+  margin:2px; 
+  padding: 2px;
+}
+
+a img {
+  height:30%;
+  width:30%;
+}
+
+.cimg {
+  width: 1366px;
+  height: 618px;
+}
+
+button {
+  margin:50px;
+  padding:50px;
+}
+
+.hpbh {
+  height: 300px;
+  width: 400px;
+}
+
+.hpbh :hover {
+  background-color:blueviolet;
+  color:skyblue;
+}
+
+button: hover {
+  background-color:purple;
+  color:blue;
+}
+
+.purple {
+  background-color:purple;
+}
+
+.contentWrapper {
+	width: 800px;
+	padding: 0 20px;
+	margin: 0 auto;
+	position: relative;
+  color: white;
+}
+
+#signUp {
+	margin-top: 150px;
+	padding: 0 20px 15px 20px;
+	border: 1px solid #bbb;
+    background-color:purple;
+}
+
+.textfield {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	padding: 7px;
+	background: #efefef;
+	border: 1px solid #bbb;
+	width: 97%;
+}
+
+#submit {
+	display: block;
+	font-size: 1em;
+	color: #FFF;
+	text-transform: uppercase;
+	background: #a2a50d;
+	padding: .8em 1em .7em;
+	border: 0;
+	border-bottom: 3px solid #7d820c;
+	margin-top: 15px;
+}
